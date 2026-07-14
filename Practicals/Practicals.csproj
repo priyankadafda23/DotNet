@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Armstrong.cs" />
+    <Compile Include="Diamond.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="Mobileno.cs" />
@@ -54,6 +55,12 @@
     <Compile Include="Profile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumSeries.cs" />
+    <Compile Include="T2_1.cs" />
+    <Compile Include="T2_3.cs" />
+    <Compile Include="T2_4.cs" />
+    <Compile Include="T2_5.cs" />
+    <Compile Include="T2_6.cs" />
     <Compile Include="ToToggleCase.cs" />
     <Compile Include="Uppercase.cs" />
   </ItemGroup>
