@@ -3,9 +3,9 @@ using System;
 
 namespace Practicals
 {
-    internal class Profile
+    internal class T1_02
     {
-        public static void Profilep()
+        public static void Profile()
         {
             Console.WriteLine("Name: Dafda Priyanka Tarunbhai");
             Console.WriteLine("DOB: 23/09/2006");

@@ -2,7 +2,7 @@
 
 namespace Practicals
 {
-    internal class Fibonacci
+    internal class T1_13
     {
         public static void Fibonacciseries()
         {

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Practicals
 {
@@ -10,27 +6,37 @@ namespace Practicals
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Dafda Priyanka Tarunbhai - 25SOECE13051\n");
             //Tutorial1
-            //Profile.Profilep();
-            //OddEven.OddEvenmain();
-            //ToToggleCase.ToggleCase();
-            //Uppercase.Lowertoupper();
-            //OddEvenStr.Oddevenstr();
-            //Factorial.Factorialf();
-            //Mobileno.MobileNum();
-            //NameGender.Namegen();
-            //Fibonacci.Fibonacciseries();
-            //NumtoText.NumbertoText();
-            //Armstrong.Armstrongnum();
-            //SumSeries.SumSeriesAdd();
-            //Diamond.DiamondPattern();
+            //T1_01.HelloWorld();
+            //T1_02.Profile();
+            //T1_03.OddEven();
+            //T1_04.Oddevenstr();
+            //T1_05.Factorial();
+            //T1_06.Sumof3();
+            //T1_07.Table();
+            //T1_08.Lowertoupper();
+            //T1_09.ToggleCase();
+            //T1_10.MobileNum();
+            //T1_11.Namegen();
+            //T1_12.SameName();
+            //T1_13.Fibonacciseries();
+            //T1_14.NumbertoText();
+            //T1_15.Armstrongnum();
+            //T1_16.Pyramid();
+            //T1_17.PyramidNum();
+            //T1_18.NumberIncreasePyramid();
+            //T1_19.Asterisk();
+            //T1_20.PyramidIncrease();
+            //T1_21.T1_21Main();
+            //T1_22.T1_22Main();
 
             //Tutorial2
             //T2_1.T2_1Main();
             //T2_3.T2_3Main();
             //T2_4.T2_4Main();
             //T2_5.T2_5Main();
-            T2_6.T2_6Main();
+            //T2_6.T2_6Main();
         }
     }
 }

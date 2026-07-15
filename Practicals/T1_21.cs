@@ -2,14 +2,14 @@
 
 namespace Practicals
 {
-    internal class SumSeries
+    internal class T1_21
     {
-        public static void SumSeriesAdd()
+        public static void T1_21Main()
         {
-            Console.WriteLine("Enter terms:");
+            Console.Write("Enter terms:");
             int terms = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Enter input number:");
+            Console.Write("Enter input number:");
             int number = Convert.ToInt32(Console.ReadLine());
 
             int sum = 0;

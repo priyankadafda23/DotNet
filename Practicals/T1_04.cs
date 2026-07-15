@@ -2,13 +2,14 @@
 
 namespace Practicals
 {
-    internal class OddEven
+    class T1_04
     {
-        public static void OddEvenmain()
+        public static void Oddevenstr()
         {
             int number;
             Console.WriteLine("Enter a number:");
-            number = Convert.ToInt32(Console.ReadLine());
+            string str = Console.ReadLine();
+            number = Convert.ToInt32(str);
 
             if (number % 2 == 0)
             {

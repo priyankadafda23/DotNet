@@ -2,9 +2,9 @@
 
 namespace Practicals
 {
-    internal class Diamond
+    internal class T1_22
     {
-        public static void DiamondPattern()
+        public static void T1_22Main()
         {
             int rows = 5;
             for (int i = 1; i <= rows; i++)
@@ -13,19 +13,19 @@ namespace Practicals
                 {
                     Console.Write(" ");
                 }
-                for(int k = 1; k <=(2 * i - 1); k++)
+                for (int k = 1; k <= (2 * i - 1); k++)
                 {
                     Console.Write("*");
                 }
                 Console.WriteLine();
             }
-            for(int i = rows - 1; i >= 1; i--)
+            for (int i = rows - 1; i >= 1; i--)
             {
-                for(int j = rows; j > i; j--)
+                for (int j = rows; j > i; j--)
                 {
                     Console.Write(" ");
                 }
-                for(int k = 1; k <= (2 * i - 1); k++)
+                for (int k = 1; k <= (2 * i - 1); k++)
                 {
                     Console.Write("*");
                 }

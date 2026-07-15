@@ -2,11 +2,11 @@
 
 namespace Practicals
 {
-    internal class Armstrong
+    internal class T1_15
     {
         public static void Armstrongnum()
         {
-            Console.WriteLine("Enter a number:");
+            Console.Write("Enter a number:");
             int num = Convert.ToInt32(Console.ReadLine());
             int original = num;
             int rem,arm = 0;

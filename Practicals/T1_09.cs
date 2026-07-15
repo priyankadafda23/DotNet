@@ -2,7 +2,7 @@
 
 namespace Practicals
 {
-    internal class ToToggleCase
+    internal class T1_09
     {
         public static void ToggleCase()
         {

@@ -2,14 +2,14 @@
 
 namespace Practicals
 {
-    internal class NameGender
+    internal class T1_11
     {
         public static void Namegen()
         {
-            Console.WriteLine("Enter name: ");
+            Console.Write("Enter name: ");
             string name=Console.ReadLine();
 
-            Console.WriteLine("Enter Gender: ");
+            Console.Write("Enter Gender: ");
             char gen = Convert.ToChar(Console.ReadLine());
 
             if (gen == 'M' || gen == 'm')

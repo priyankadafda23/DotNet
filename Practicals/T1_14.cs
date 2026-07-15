@@ -2,11 +2,11 @@
 
 namespace Practicals
 {
-    internal class NumtoText
+    internal class T1_14
     {
         public static void NumbertoText()
         {
-            Console.WriteLine("Enter a number:");
+            Console.Write("Enter a number:");
             string num=Console.ReadLine();
 
             foreach(char c in num)

@@ -43,26 +43,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Armstrong.cs" />
-    <Compile Include="Diamond.cs" />
-    <Compile Include="Factorial.cs" />
-    <Compile Include="Fibonacci.cs" />
-    <Compile Include="Mobileno.cs" />
-    <Compile Include="NameGender.cs" />
-    <Compile Include="NumtoText.cs" />
-    <Compile Include="OddEven.cs" />
-    <Compile Include="OddEvenStr.cs" />
-    <Compile Include="Profile.cs" />
+    <Compile Include="T1_15.cs" />
+    <Compile Include="T1_05.cs" />
+    <Compile Include="T1_13.cs" />
+    <Compile Include="T1_10.cs" />
+    <Compile Include="T1_11.cs" />
+    <Compile Include="T1_14.cs" />
+    <Compile Include="T1_03.cs" />
+    <Compile Include="T1_04.cs" />
+    <Compile Include="T1_02.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SumSeries.cs" />
+    <Compile Include="T1_01.cs" />
+    <Compile Include="T1_07.cs" />
+    <Compile Include="T1_12.cs" />
+    <Compile Include="T1_16.cs" />
+    <Compile Include="T1_17.cs" />
+    <Compile Include="T1_18.cs" />
+    <Compile Include="T1_19.cs" />
+    <Compile Include="T1_20.cs" />
+    <Compile Include="T1_21.cs" />
+    <Compile Include="T1_22.cs" />
+    <Compile Include="T1_06.cs" />
     <Compile Include="T2_1.cs" />
     <Compile Include="T2_3.cs" />
     <Compile Include="T2_4.cs" />
     <Compile Include="T2_5.cs" />
-    <Compile Include="T2_6.cs" />
-    <Compile Include="ToToggleCase.cs" />
-    <Compile Include="Uppercase.cs" />
+    <Compile Include="T1_09.cs" />
+    <Compile Include="T1_08.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
