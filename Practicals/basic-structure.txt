@@ -1,0 +1,12 @@
+using System;
+
+namespace Practicals
+{
+    internal class T1_1
+    {
+        public static void T1_1Main()
+        {
+            
+        }
+    }
+}
