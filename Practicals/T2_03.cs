@@ -2,13 +2,12 @@
 
 namespace Practicals
 {
-    internal class T2_3
+    internal class T2_03
     {
         public static void T2_3Main()
         {
             char firstName = 'J';
             char lastName = 'D';
-
             Console.WriteLine("Name: " + firstName + " " + lastName);
 
             Console.WriteLine("Please enter a new first name:");

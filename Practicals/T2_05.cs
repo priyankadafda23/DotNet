@@ -2,7 +2,7 @@
 
 namespace Practicals
 {
-    internal class T2_5
+    internal class T2_05
     {
         public static void T2_5Main()
         {
@@ -15,7 +15,6 @@ namespace Practicals
                 string str = Console.ReadLine();
                 arr[i] = Convert.ToInt32(str);
             }
-
             for (int i = 0; i < 5; i++)
             {
                 sum = sum + arr[i];

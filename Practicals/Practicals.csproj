@@ -65,12 +65,17 @@
     <Compile Include="T1_21.cs" />
     <Compile Include="T1_22.cs" />
     <Compile Include="T1_06.cs" />
-    <Compile Include="T2_1.cs" />
-    <Compile Include="T2_3.cs" />
-    <Compile Include="T2_4.cs" />
-    <Compile Include="T2_5.cs" />
+    <Compile Include="T2_06.cs" />
+    <Compile Include="T2_01.cs" />
+    <Compile Include="T2_03.cs" />
+    <Compile Include="T2_04.cs" />
+    <Compile Include="T2_05.cs" />
     <Compile Include="T1_09.cs" />
     <Compile Include="T1_08.cs" />
+    <Compile Include="T2_07.cs" />
+    <Compile Include="T2_08.cs" />
+    <Compile Include="T2_11.cs" />
+    <Compile Include="T2_12.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
