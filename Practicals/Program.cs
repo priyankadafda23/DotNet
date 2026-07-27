@@ -38,7 +38,8 @@ namespace Practicals
             //T2_5.T2_5Main();
             //T2_06,T2_07,T2_08 is runned on its own main method.
             //T2_11.T2_11Main();
-            T2_12.T2_12Main();
+            //T2_12.T2_12Main();
+            basics.basicsMain();
 
 
         }
