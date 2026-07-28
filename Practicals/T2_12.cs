@@ -14,10 +14,10 @@ namespace Practicals
             int[] arr = new int[n];
             for (int i = 0; i < n; i++)
             {
-                Console.Write("Enter ELements:");
+                Console.Write($"Enter ELement{i}:");
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
-            Console.WriteLine("Enter an element to search:");
+            Console.Write("Enter an element to search:");
             search = Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < n; i++)
             {
