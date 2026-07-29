@@ -30,8 +30,6 @@ namespace Practicals
                     break;
                 }
             }
-
-            // Print result
             Console.WriteLine(found);
         }
     }

@@ -26,12 +26,13 @@
 //        {
 //            static void Main(string[] args)
 //            {
+//                Console.WriteLine("Dafda Priyanka Tarunbhai - 25SOECE13051\n");
 //                NumberManipulator n = new NumberManipulator();
 //                int a, b, c, sum;
 
 //                sum = n.getValues(out a, out b, out c);
 
-//                Console.WriteLine("After method call, value of a : {0}", a);
+//                Console.WriteLine("\nAfter method call, value of a : {0}", a);
 //                Console.WriteLine("After method call, value of b : {0}", b);
 //                Console.WriteLine("After method call, value of c : {0}", c);
 //                Console.WriteLine("Sum : {0}", sum);

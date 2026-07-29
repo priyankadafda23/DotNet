@@ -26,7 +26,6 @@ namespace Practicals
             {
                 Console.WriteLine("The candidate is NOT eligible for admission.");
             }
-
         }
     }
 }

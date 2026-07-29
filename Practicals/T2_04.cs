@@ -4,11 +4,11 @@ namespace Practicals
 {
     internal class T2_04
     {
-        public static void T2_4Main()
+        public static void T2_04Main()
         {
-            Console.WriteLine("Enter a:");
+            Console.Write("Enter a:");
             int a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter b:");
+            Console.Write("Enter b:");
             int b = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("\n---Arithmetic Operator:---");

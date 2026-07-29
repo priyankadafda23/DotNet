@@ -6,11 +6,9 @@ namespace Practicals
     {
         public static void T2_15Main()
         {
-
-            Console.Write("Enter your name: ");
+            Console.Write("Input: ");
             string name = Console.ReadLine();
             Console.WriteLine("Output: " + name);
-
         }
     }
 }

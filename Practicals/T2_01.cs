@@ -4,7 +4,7 @@ namespace Practicals
 {
     internal class T2_01
     {
-        public static void T2_1Main()
+        public static void T2_01Main()
         {
             int a = 100;
             if (a < 20)

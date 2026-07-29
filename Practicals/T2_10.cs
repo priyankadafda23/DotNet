@@ -35,7 +35,6 @@ namespace Practicals
             };
             int result = MatSearch(mat, 3, 3, 50);
             Console.WriteLine(result);
-            
         }
     }
 }

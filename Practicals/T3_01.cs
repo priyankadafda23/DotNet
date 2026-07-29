@@ -25,7 +25,7 @@ namespace Practicals
     }
     internal class T3_01
     {
-        public static void Main()
+        public static void T3_01Main()
         {
             Prog1 p1 = new Prog1();
 
