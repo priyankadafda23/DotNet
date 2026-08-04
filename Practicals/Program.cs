@@ -47,6 +47,9 @@ namespace Practicals
 
             //Tutorial3
             //T3_01.T3_01Main();
+            //T3_02.T3_02Main();
+            //T3_03.T3_03Main();
+            T3_04.T3_04Main();
 
             //Practice
             //basics.basicsMain();

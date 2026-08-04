@@ -7,6 +7,8 @@ namespace Practicals
         private int enroll_no;
         private string name;
         private string branch;
+
+        //constructor
         public void Student(int eno, string n, string b)
         {
             enroll_no= eno;
@@ -14,6 +16,7 @@ namespace Practicals
             branch = b;
 
         }
+        //static method to display student details
         public void display()
         {
             Console.WriteLine("---Student Details:---");
@@ -27,7 +30,8 @@ namespace Practicals
     {
         public static void T3_01Main()
         {
-            Prog1 p1 = new Prog1();
+            Prog1 p1 = new Prog1(); //creating object
+            Prog1 p2 = new Prog1();//creating object
 
             //Static values
             //int e = 14;
@@ -44,8 +48,11 @@ namespace Practicals
             Console.Write("Enter Branch:");
             string b=Console.ReadLine();
 
-            p1.Student(e, n, b);
-            p1.display();
+            p1.Student(e, n, b); //passing values to method
+            p1.display(); //display values
+
+            p2.Student(102, "Tisha", "CSE"); //passing values to method
+            p2.display(); //display values
 
         }
     }

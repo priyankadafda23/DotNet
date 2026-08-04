@@ -1,20 +1,21 @@
-class
-+--------+
-|student|
-+--------+
-|Enrollment no.|
-|Name|
-|Branch|
-+--------+
-|AcceptData()|
-|DisplayData()|
-+--------+
-      |
----------------------
-|Creating Objects|
-+--------+ +--------+
+    class
+    +----------------+
+    |    student     |
+    +----------------+
+    | Enrollment no. |
+    |     Name       |
+    |    Branch      |
+    +----------------+
+    |  AcceptData()  |
+    | DisplayData()  |
+    +----------------+
+             |
+-------------------------
+|     Creating Objects  |
++----------+ +----------+
 |Student s1| |Student s2|
-+--------+ +--------+
-|101| |102|
-|Tisha| |Priya|
-|CSE| |CSE|
++----------+ +----------+
+|    101   |  |   102   |
+|   Tisha  |  |  Priya  |
+|    CSE   |  |   CSE   |
+-------------------------
