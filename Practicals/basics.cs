@@ -8,7 +8,8 @@ namespace Practicals
 {
     internal class basics
     {
-            public static void basicsMain() {
+        public static void basicsMain()
+        {
             Console.WriteLine("1. Reverse a string");
             //algorithm:
             //1. take input string from user
@@ -36,7 +37,7 @@ namespace Practicals
             //3. check if str and rev is same or not.
             //4. if equal then print palindrome; otherwise print not palindrome.
 
-            Console.Write("Enter a string to check Palindrome:");
+            Console.Write("\nEnter a string to check Palindrome:");
             string str1 = Console.ReadLine();
 
             string rev1 = "";

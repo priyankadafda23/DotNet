@@ -50,8 +50,6 @@ namespace Practicals
 
             //Practice
             //basics.basicsMain();
-
-
         }
     }
 }
