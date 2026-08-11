@@ -86,6 +86,12 @@
     <Compile Include="T3_02.cs" />
     <Compile Include="T3_03.cs" />
     <Compile Include="T3_04.cs" />
+    <Compile Include="T3_05.cs" />
+    <Compile Include="T3_06.cs" />
+    <Compile Include="T3_07.cs" />
+    <Compile Include="T3_08.cs" />
+    <Compile Include="T3_09.cs" />
+    <Compile Include="T3_10.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

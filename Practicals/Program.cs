@@ -49,10 +49,16 @@ namespace Practicals
             //T3_01.T3_01Main();
             //T3_02.T3_02Main();
             //T3_03.T3_03Main();
-            T3_04.T3_04Main();
+            //T3_04.T3_04Main();
+            //T3_06.T3_06Main();
+            //T3_07.T3_07Main();
+            //T3_08.T3_08Main();
+            //T3_09.T3_09Main();
+            T3_10.T3_10Main();
+
 
             //Practice
             //basics.basicsMain();
         }
-    }
+}
 }
