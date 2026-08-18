@@ -35,10 +35,13 @@ namespace Practicals
         {
             Console.Write("Enter ID: ");
             int e = Convert.ToInt32(Console.ReadLine());
+
             Console.Write("Enter Name: ");
             string n = Console.ReadLine();
+
             Console.Write("Enter Salary: ");
             double salary = Convert.ToDouble(Console.ReadLine());
+
             Employee s = new Employee(e, n, salary);
             s.calculate();
             s.display();

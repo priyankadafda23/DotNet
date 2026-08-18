@@ -54,7 +54,13 @@ namespace Practicals
             //T3_07.T3_07Main();
             //T3_08.T3_08Main();
             //T3_09.T3_09Main();
-            T3_10.T3_10Main();
+            //T3_10.T3_10Main();
+            //T3_11.T3_11Main();
+            //T3_12.T3_12Main();
+            //T3_13.T3_13Main();
+            //T3_14.T3_14Main();
+            //T3_15.T3_15Main();
+            T3_16.T3_16Main();
 
 
             //Practice
