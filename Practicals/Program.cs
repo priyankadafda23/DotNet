@@ -68,7 +68,7 @@ namespace Practicals
             //T3_21.T3_21Main();
             //T3_22.T3_22Main();
             //T3_23.T3_23Main();
-            T3_24.T3_24Main();
+            //T3_24.T3_24Main();
             //T3_25.T3_25Main();
             //T3_26.T3_26Main();
 
