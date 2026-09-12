@@ -73,23 +73,23 @@ namespace Practicals
         public static void T3_02Main()
         {
             Clock c1 = new Clock(); //creating object
-            Console.WriteLine("Default Time:");
+            Console.Write("\nDefault Time: ");
             c1.display(); //displaying values
 
             Clock c2 = new Clock(10,59,08);//creating object
-            Console.WriteLine("Initial Time:");
+            Console.Write("\nInitial Time: ");
             c2.display(); //displaying values
 
-            Console.WriteLine("Increment time after 1 second:");
+            Console.Write("\nIncrement time after 1 second: ");
             c2.incrementSecond();
             c2.display(); //displaying values
 
-            Console.WriteLine("Increment time after 2 seconds:");
+            Console.Write("\nIncrement time after 2 seconds: ");
             c2.incrementSecond();
             c2.display(); //displaying values
 
             //display individual values
-            Console.WriteLine("Hour: " + c2.gethour());
+            Console.WriteLine("\nHour: " + c2.gethour());
             Console.WriteLine("Minute: " + c2.getmin());
             Console.WriteLine("Second: " + c2.getsec());
         }

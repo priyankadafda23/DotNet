@@ -53,8 +53,7 @@ namespace Practicals
         public void display()
         {
             Console.WriteLine("Id:" + id);
-            Console.WriteLine("Name:" + name);
-            Console.WriteLine("\n");
+            Console.WriteLine("Name:" + name+"\n");
         }
     }
 

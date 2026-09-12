@@ -14,7 +14,7 @@ namespace Practicals
         }
         public void Display()
         {
-            Console.WriteLine("-----Product Details-----");
+            Console.WriteLine("\n-----Product Details-----");
             Console.WriteLine("Product id is " + prodId);
             Console.WriteLine("Product Name is " + prodName);
             Console.WriteLine("Product Price is "+ price);

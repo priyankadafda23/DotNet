@@ -62,7 +62,7 @@ namespace Practicals
             Students3 s1 = new Students3(); //creating object
             s1.display();
 
-            Console.WriteLine("Parameterized Constructor:");
+            Console.WriteLine("\nParameterized Constructor:");
             Students3 s3 = new Students3(14,"Priyanka"); //creating object
             s3.display();
         }

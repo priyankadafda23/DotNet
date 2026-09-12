@@ -103,6 +103,11 @@
     <Compile Include="T3_19.cs" />
     <Compile Include="T3_20.cs" />
     <Compile Include="T3_21.cs" />
+    <Compile Include="T3_22.cs" />
+    <Compile Include="T3_23.cs" />
+    <Compile Include="T3_24.cs" />
+    <Compile Include="T3_25.cs" />
+    <Compile Include="T3_26.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

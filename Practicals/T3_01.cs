@@ -19,7 +19,7 @@ namespace Practicals
         //static method to display student details
         public void display()
         {
-            Console.WriteLine("---Student Details:---");
+            Console.WriteLine("\n---Student Details:---");
             Console.WriteLine("Enrollment number: " + enroll_no);
             Console.WriteLine("Name: " + name);
             Console.WriteLine("Branch: " + branch);

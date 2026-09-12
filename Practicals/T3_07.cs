@@ -13,7 +13,7 @@ namespace Practicals
         }
         public void display()
         {
-            Console.WriteLine("Enrollment Number is{0}\n Name is {1}", enroll, name);
+            Console.WriteLine("\nEnrollment Number is {0}\nName is {1}", enroll, name);
         }
     }
     class T3_07
