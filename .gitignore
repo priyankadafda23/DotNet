@@ -1,0 +1,17 @@
+# Visual Studio temporary files
+.vs/
+**/.vs/
+
+# Build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# User-specific Visual Studio files
+*.user
+*.suo
+
+# NuGet packages generated/downloaded locally
+packages/
+**/packages/

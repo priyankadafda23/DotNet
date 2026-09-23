@@ -108,6 +108,16 @@
     <Compile Include="T3_24.cs" />
     <Compile Include="T3_25.cs" />
     <Compile Include="T3_26.cs" />
+    <Compile Include="T4_01.cs" />
+    <Compile Include="T4_02.cs" />
+    <Compile Include="T4_03.cs" />
+    <Compile Include="T4_04.cs" />
+    <Compile Include="T4_05.cs" />
+    <Compile Include="T4_06.cs" />
+    <Compile Include="T4_07.cs" />
+    <Compile Include="T4_08.cs" />
+    <Compile Include="T4_09.cs" />
+    <Compile Include="T4_10.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

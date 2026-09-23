@@ -37,7 +37,6 @@ namespace Practicals
 
                 string modifiedPassword = password.Replace('@', '#');
                 Console.WriteLine("Modified Password :" + modifiedPassword);
-
             }
         }
     }

@@ -42,7 +42,6 @@ namespace Practicals
             a.CalculateInterest();
             CurrentAccount b = new CurrentAccount(10000);
             b.CalculateInterest();
-
         }
     }
 }
