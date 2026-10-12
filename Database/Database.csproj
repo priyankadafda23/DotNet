@@ -105,7 +105,17 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\HDFC-Loans.mdf" />
+    <Content Include="App_Data\HDFC-Loans_log.ldf">
+      <DependentUpon>HDFC-Loans.mdf</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
+    <Content Include="Home.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="NewApplication.aspx" />
+    <Content Include="RemoveApplication.aspx" />
+    <Content Include="UpdateApplication.aspx" />
+    <Content Include="ViewAll.aspx" />
     <Content Include="Web.config" />
     <Content Include="Register.aspx" />
     <Content Include="student-record.aspx" />
@@ -116,14 +126,28 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site1.Master.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site1.Master.designer.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewApplication.aspx.cs">
+      <DependentUpon>NewApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewApplication.aspx.designer.cs">
+      <DependentUpon>NewApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -131,12 +155,40 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="RemoveApplication.aspx.cs">
+      <DependentUpon>RemoveApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RemoveApplication.aspx.designer.cs">
+      <DependentUpon>RemoveApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
     <Compile Include="student-record.aspx.cs">
       <DependentUpon>student-record.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="student-record.aspx.designer.cs">
       <DependentUpon>student-record.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateApplication.aspx.cs">
+      <DependentUpon>UpdateApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateApplication.aspx.designer.cs">
+      <DependentUpon>UpdateApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAll.aspx.cs">
+      <DependentUpon>ViewAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAll.aspx.designer.cs">
+      <DependentUpon>ViewAll.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -1,18 +1,59 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Database.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" Inherits="Database.Site1" %>
 
 <!DOCTYPE html>
-
 <html>
 <head runat="server">
-    <title></title>
+    <title>HDFC Loans</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+            <asp:Table ID="Table1" runat="server" BorderWidth="1px" CellPadding="5" GridLines="Both" Width="600px" HorizontalAlign="Center">
+                
+                <asp:TableRow>
+                    <asp:TableCell ColumnSpan="2" HorizontalAlign="Center">
+                        <h2><asp:Label ID="Label1" runat="server" Text="HDFC Loans - Next Step to Dream"></asp:Label></h2>
+                    </asp:TableCell>
+                </asp:TableRow>
+                
+                <asp:TableRow>
+                    <asp:TableCell>
+                        <asp:Label ID="lblUserStatus" runat="server" Text="Logged In: UserEmail"></asp:Label>
+                    </asp:TableCell>
+                    <asp:TableCell Width="100px" HorizontalAlign="Center">
+                        <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" />
+                    </asp:TableCell>
+                </asp:TableRow>
+                
+                <asp:TableRow>
+                    <asp:TableCell ColumnSpan="2">
+                        <asp:HyperLink ID="lnkHome" runat="server" NavigateUrl="~/Home.aspx" Font-Bold="true">Home</asp:HyperLink> &nbsp;|&nbsp;
+                        <asp:HyperLink ID="lnkNew" runat="server" NavigateUrl="~/NewApplication.aspx" Font-Bold="true">New Application</asp:HyperLink> &nbsp;|&nbsp;
+                        <asp:HyperLink ID="lnkUpdate" runat="server" NavigateUrl="~/UpdateApplication.aspx" Font-Bold="true">Update Application</asp:HyperLink> &nbsp;|&nbsp;
+                        <asp:HyperLink ID="lnkRemove" runat="server" NavigateUrl="~/RemoveApplication.aspx" Font-Bold="true">Remove Application</asp:HyperLink> &nbsp;|&nbsp;
+                        <asp:HyperLink ID="lnkViewAll" runat="server" NavigateUrl="~/ViewAll.aspx" Font-Bold="true">View All</asp:HyperLink>
+                    </asp:TableCell>
+                </asp:TableRow>
+                
+                <asp:TableRow Height="50px">
+                    <asp:TableCell ColumnSpan="2" VerticalAlign="Top" BackColor="#FAFAFA">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </asp:TableCell>
+                </asp:TableRow>
+                
+                <asp:TableRow>
+                    <asp:TableCell ColumnSpan="2" VerticalAlign="Top">
+                        <strong>Contact Us:</strong>
+                        <br /><br />
+                        HDFC Loans Systems,<br />
+                        Mumbai, Maharashtra, India
+                    </asp:TableCell>
+                </asp:TableRow>
+                
+            </asp:Table>
         </div>
     </form>
 </body>

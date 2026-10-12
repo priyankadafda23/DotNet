@@ -90,11 +90,11 @@ namespace Practicals
             //T5_03.T5_03Main();
             //T5_04.T5_04Main();
             //T5_05.T5_05Main();
-            T5_06.T5_06Main();
+            //T5_06.T5_06Main();
             //T5_07.T5_07Main();
             //T5_08.T5_08Main();
             //T5_09.T5_09Main();
-            //T5_10.T5_10Main();
+            T5_10.T5_10Main();
 
             //Practice
             //basics.basicsMain();

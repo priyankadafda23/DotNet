@@ -21,7 +21,7 @@ namespace demo
 
         protected void Timer1_Tick(object sender, EventArgs e)
         {
-            AdRotator1.DataBind();
+            //AdRotator1.DataBind();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
