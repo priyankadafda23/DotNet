@@ -94,7 +94,12 @@ namespace Practicals
             //T5_07.T5_07Main();
             //T5_08.T5_08Main();
             //T5_09.T5_09Main();
-            T5_10.T5_10Main();
+            //T5_10.T5_10Main();
+
+            //Tutorial6
+            //T6_01.T6_01Main();
+            //T6_02.T6_02Main();
+            //T6_03,T6_04,T6_05 is runned on its own main method.
 
             //Practice
             //basics.basicsMain();
