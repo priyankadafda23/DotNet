@@ -100,6 +100,13 @@ namespace Practicals
             //T6_01.T6_01Main();
             //T6_02.T6_02Main();
             //T6_03,T6_04,T6_05 is runned on its own main method.
+            //T6_06.T6_06Main();
+            //T6_07.T6_07Main();
+            //T6_08.T6_08Main();
+            //T6_09.T6_09Main();
+            //T6_10.T6_10Main();
+            //T6_11.T6_11Main();
+            T6_12.T6_12Main();
 
             //Practice
             //basics.basicsMain();

@@ -1,0 +1,17 @@
+//update query
+SqlConnection con = new SqlConnection(connectionString);
+con.Open();
+string query = "UPDATE Register1 SET Name= @Name WHERE Id=@Id";
+SqlCommand cmd = new SqlCommand(query, con);
+cmd.ExecuteNonQuery();
+con.Close();
+Response.Write("<script>alert('Data updates successfully');</script>");
+
+//delete query
+SqlConnection con = new SqlConnection(connectionString);
+con.Open();
+string query = "DELETE FROM Register1 WHERE Name= @Name WHERE Id=@Id";
+SqlCommand cmd = new SqlCommand(query, con);
+cmd.ExecuteNonQuery();
+con.Close();
+Response.Write("<script>alert('Data updates successfully');</script>");
