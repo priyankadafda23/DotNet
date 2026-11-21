@@ -1,0 +1,175 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true"
+    CodeBehind="Site1.master.cs"
+    Inherits="HDFC_Loans.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>HDFC Loans</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman";
+            margin: 10px;
+        }
+
+        .main-container {
+            width: 720px;
+            margin: 20px;
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+
+        .main-container td {
+            border: 1px solid gray;
+            padding: 5px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 8px;
+        }
+
+        .header h1 {
+            margin: 5px;
+            font-size: 30px;
+        }
+
+        .user-bar {
+            height: 40px;
+        }
+
+        .logout-cell {
+            text-align: center;
+            width: 100px;
+        }
+
+        .navigation td {
+            text-align: center;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        .navigation a {
+            font-size: 18px;
+        }
+
+        .content {
+            height: 60px;
+            padding: 10px;
+        }
+
+        .footer {
+            height: 115px;
+            padding: 8px;
+        }
+
+        .footer h3 {
+            margin-top: 5px;
+        }
+
+        .footer p {
+            margin-top: 25px;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+
+<form id="form1" runat="server">
+
+    <table class="main-container" cellspacing="0" cellpadding="0">
+
+        <!-- Header -->
+        <tr>
+            <td colspan="5" class="header">
+                <h1>HDFC Loans - Next Step to Dream</h1>
+            </td>
+        </tr>
+
+        <!-- Logged In and Logout -->
+        <tr class="user-bar">
+            <td colspan="4">
+                Logged In:
+                <asp:Label ID="lblUser" runat="server"
+                    Text="UserEmail"></asp:Label>
+            </td>
+
+            <td class="logout-cell">
+                <asp:Button ID="btnLogout" runat="server"
+                    Text="Logout"
+                    OnClick="btnLogout_Click" />
+            </td>
+        </tr>
+
+        <!-- Navigation -->
+        <tr class="navigation">
+
+            <td>
+                <asp:HyperLink ID="lnkHome" runat="server"
+                    NavigateUrl="~/Home.aspx"
+                    Text="Home"></asp:HyperLink>
+            </td>
+
+            <td>
+                <asp:HyperLink ID="lnkNew" runat="server"
+                    NavigateUrl="~/NewApplication.aspx"
+                    Text="New Application"></asp:HyperLink>
+            </td>
+
+            <td>
+                <asp:HyperLink ID="lnkUpdate" runat="server"
+                    NavigateUrl="~/UpdateApplication.aspx"
+                    Text="Update Application"></asp:HyperLink>
+            </td>
+
+            <td>
+                <asp:HyperLink ID="lnkRemove" runat="server"
+                    NavigateUrl="~/RemoveApplication.aspx"
+                    Text="Remove Application"></asp:HyperLink>
+            </td>
+
+            <td>
+                <asp:HyperLink ID="lnkView" runat="server"
+                    NavigateUrl="~/ViewAll.aspx"
+                    Text="View All"></asp:HyperLink>
+            </td>
+
+        </tr>
+
+        <!-- Main Content -->
+        <tr>
+            <td colspan="5" class="content">
+
+                <asp:ContentPlaceHolder ID="MainContent"
+                    runat="server">
+                </asp:ContentPlaceHolder>
+
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td colspan="5" class="footer">
+
+                <h3>Contact Us:</h3>
+
+                <p>
+                    HDFC Loans Systems,<br />
+                    Mumbai, Maharashtra, India
+                </p>
+
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+
+</body>
+</html>
